@@ -1,5 +1,15 @@
 from functools import lru_cache
 import time 
+import matplotlib.pyplot as plt
+def arrs(fib_load_time):
+    arr1 = []
+    for n in range(101):
+        arr1.append(n)
+
+    arr2=[]
+    for n in range(101):
+        arr2.append(fib_load_time)
+    return (plt.plot[arr1][arr2])
 
 def timer(func):
     def wrapper(*args, **kwargs):
